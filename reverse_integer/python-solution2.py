@@ -7,8 +7,9 @@ class Solution:
             multiplier = -1
 
         reverted = int(str(x)[::-1])
+        reverted *= multiplier
 
-        if reverted >= 2147483647:
+        if reverted > 2147483647 or reverted < -2147483647:
             return 0
 
-        return reverted * multiplier
+        return reverted
