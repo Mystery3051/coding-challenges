@@ -1,6 +1,6 @@
 Found on: https://leetcode.com/problems/find-the-town-judge/
 
-997\. Find the Town Judge
+**997\. Find the Town Judge**
 
 In a town, there are `N` people labelled from `1` to `N`. 
 
