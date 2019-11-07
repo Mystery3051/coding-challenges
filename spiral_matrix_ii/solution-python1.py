@@ -3,6 +3,9 @@ from typing import List
 
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
+        # For loops perform better than list expressions
+        # result = [[0 for _ in range(n)] for _ in range(n)]
+
         result = []
         for _ in range(n):
             row = []
